@@ -1,0 +1,19 @@
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets - never commit
+.env
+
+# Data: PDFs are downloaded separately (see README); index is rebuilt with `python -m src.index`
+data/pdfs/*
+!data/pdfs/.gitkeep
+data/index/
+
+# Evaluation run outputs (summary is in the README)
+eval/results/*
+!eval/results/.gitkeep
+
+# Local tooling
+.claude/
