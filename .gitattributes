@@ -1,0 +1,4 @@
+# Normalize line endings in the repo; keep Windows scripts as CRLF
+* text=auto eol=lf
+*.bat text eol=crlf
+*.pdf binary
